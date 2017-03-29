@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7321" started-at="2017-03-29T16:03:56Z" finished-at="2017-03-29T16:04:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7321" started-at="2017-03-29T16:03:56Z" finished-at="2017-03-29T16:04:03Z">
+      <class name="avnfunctionaltest.Functionaltest">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="logintest" duration-ms="2673" started-at="2017-03-29T21:33:56Z" finished-at="2017-03-29T21:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="viewrepairticket()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="viewrepairticket" duration-ms="3699" started-at="2017-03-29T21:33:59Z" finished-at="2017-03-29T21:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewrepairticket -->
+        <test-method status="PASS" signature="createrepairticket()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="createrepairticket" duration-ms="299" started-at="2017-03-29T21:34:03Z" finished-at="2017-03-29T21:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrepairticket -->
+        <test-method status="PASS" signature="pageredirection()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="pageredirection" duration-ms="279" started-at="2017-03-29T21:34:03Z" finished-at="2017-03-29T21:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageredirection -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="logouttest" duration-ms="331" started-at="2017-03-29T21:34:03Z" finished-at="2017-03-29T21:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- avnfunctionaltest.Functionaltest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
