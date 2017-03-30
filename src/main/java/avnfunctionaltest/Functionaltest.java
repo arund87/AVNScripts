@@ -41,6 +41,10 @@ public class Functionaltest {
 				.visibilityOfElementLocated(By.xpath("//h2[text()='WELCOME TO YOUR ACCOUNT OVERVIEW']")));
 		welcome.isDisplayed();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
+		WebElement prepair = wait.until(ExpectedConditions
+				.visibilityOfElementLocated(By.xpath("//p[text()='REPAIR']")));
+		prepair.isDisplayed();
+		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.get(URL1);
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		WebElement repair = wait.until(
