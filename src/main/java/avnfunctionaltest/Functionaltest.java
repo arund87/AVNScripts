@@ -24,7 +24,7 @@ public class Functionaltest {
 	public void logintest() {
 		driver = new HtmlUnitDriver();
 		//driver= new FirefoxDriver();
-		wait = new WebDriverWait(driver, 15);
+		wait = new WebDriverWait(driver, 5000);
 		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		// Login Page content check
