@@ -3,7 +3,9 @@ package avnfunctionaltest;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,13 +14,17 @@ import org.testng.annotations.Test;
 public class Functionaltest {
 
 	public HtmlUnitDriver driver;
+	//public WebDriver driver;
 	public WebDriverWait wait;
-	public String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/arun";
-	public String URL1 = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/arun/avncreatepage.jsp";
-
+	//public String URL = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/arun";
+	//public String URL1 = "http://ec2-54-254-182-212.ap-southeast-1.compute.amazonaws.com:8080/arun/avncreatepage.jsp";
+	 public String URL ="http://localhost:8080/AVNCommunication-0.0.1-SNAPSHOT/avnlogin.jsp";
+	 public String URL1="http://localhost:8080/AVNCommunication-0.0.1-SNAPSHOT/avncreatepage.jsp";
+	 
 	@Test(priority = 0)
 	public void logintest() {
 		driver = new HtmlUnitDriver();
+		//driver= new FirefoxDriver();
 		wait = new WebDriverWait(driver, 5000);
 		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
@@ -94,14 +100,14 @@ public class Functionaltest {
 	public void logouttest() {
 		driver.findElement(By.partialLinkText("Logout")).click();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//h1[text()='AVN COMMUNICATION']")).isDisplayed();
+		driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed();
 		driver.findElement(By.name("username")).sendKeys("deraviyam");
 		driver.findElement(By.name("userpassword")).sendKeys("deraviyam");
 		driver.findElement(By.xpath("//button[text()='Login']")).click();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.findElement(By.partialLinkText("Logout")).click();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//h1[text()='AVN COMMUNICATION']")).isDisplayed();
+		driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed();
 		driver.quit();
 	}
 

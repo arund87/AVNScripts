@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7321" started-at="2017-03-29T16:03:56Z" finished-at="2017-03-29T16:04:03Z">
+  <suite name="Default suite" duration-ms="23846" started-at="2017-04-05T10:46:04Z" finished-at="2017-04-05T10:46:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7321" started-at="2017-03-29T16:03:56Z" finished-at="2017-03-29T16:04:03Z">
+    <test name="Default test" duration-ms="23846" started-at="2017-04-05T10:46:04Z" finished-at="2017-04-05T10:46:28Z">
       <class name="avnfunctionaltest.Functionaltest">
-        <test-method status="PASS" signature="logintest()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="logintest" duration-ms="2673" started-at="2017-03-29T21:33:56Z" finished-at="2017-03-29T21:33:59Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="logintest" duration-ms="14241" started-at="2017-04-05T16:16:04Z" finished-at="2017-04-05T16:16:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="viewrepairticket()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="viewrepairticket" duration-ms="3699" started-at="2017-03-29T21:33:59Z" finished-at="2017-03-29T21:34:03Z">
+        <test-method status="PASS" signature="viewrepairticket()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="viewrepairticket" duration-ms="5363" started-at="2017-04-05T16:16:18Z" finished-at="2017-04-05T16:16:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewrepairticket -->
-        <test-method status="PASS" signature="createrepairticket()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="createrepairticket" duration-ms="299" started-at="2017-03-29T21:34:03Z" finished-at="2017-03-29T21:34:03Z">
+        <test-method status="PASS" signature="createrepairticket()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="createrepairticket" duration-ms="1897" started-at="2017-04-05T16:16:23Z" finished-at="2017-04-05T16:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createrepairticket -->
-        <test-method status="PASS" signature="pageredirection()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="pageredirection" duration-ms="279" started-at="2017-03-29T21:34:03Z" finished-at="2017-03-29T21:34:03Z">
+        <test-method status="PASS" signature="pageredirection()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="pageredirection" duration-ms="1742" started-at="2017-04-05T16:16:25Z" finished-at="2017-04-05T16:16:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageredirection -->
-        <test-method status="PASS" signature="logouttest()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="logouttest" duration-ms="331" started-at="2017-03-29T21:34:03Z" finished-at="2017-03-29T21:34:03Z">
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:avnfunctionaltest.Functionaltest@675d3402]" name="logouttest" duration-ms="504" started-at="2017-04-05T16:16:27Z" finished-at="2017-04-05T16:16:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logouttest -->
       </class> <!-- avnfunctionaltest.Functionaltest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
